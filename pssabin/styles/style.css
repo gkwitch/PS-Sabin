@@ -7,66 +7,162 @@
         font-family: "Montserrat", Arial, Helvetica, sans-serif;
         
     }
+
+    div.container {
+        padding: 0px;
+        margin: 0px;
+    }
     
-    html{
+    html, main{
         height: 100vh;
         width: 100vw;
         
     }
-    
-    header > .containerheader {
-        background-color: #ffffff;
-        height: 70px;
-
+    header{
         display: flex;
         flex-flow: row nowrap;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: center;
 
-        padding-right: 12px;
-        
+        height: 60px;
+    }
 
+    div.containerheader {
+
+        flex: row nowrap;
+
+        justify-content: space-evenly;
+        align-items: space-between;
+
+    }
+
+    div.containernav {
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: center;
+        align-items: center;
+
+        padding-top: 5%;
+
+        padding-right: 5px;
+
+    }
+    
+
+    #logo {
+        margin: 10% 0% 5% 5%;
     }
 
     #logo > img {
-        width: 11em;
-        position: absolute;
-        margin: -20px 0px 5px -30px;
 
+        width: 105px;
+    
     }
-
-    header > button {}
-        
 
     .escrevaaqui , .perfil , .equipe {
 
         background-color: #ffffff;
-        font-weight: 500;
-        display: inline-block;
+        color: black;
+        font-weight: normal;
+        
         font-size: 0.7em;
         line-height: 2em;
+        text-decoration: none;
+        padding: 5px;
 
-        border-top: #ffffff 0px solid;
+        border-top: #ffffff 1px solid;
         border-right: #265299 2.5px solid;
         border-bottom: #265299 2.5px solid;
         border-left: #265299 2.5px solid;
-        border-radius: 0px 0px 10px 10px;
+        border-radius: 0px 0px 12px 12px;
         
+    }
+    div.containerpart1{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
         
     }
 
+
+    div.circulo{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+        
+        
+    }
+    .circuloimg {
+
+        width: 163.5px;
+    }
+    div.qrenviar{
+       
+
+        font-size: 1.2em;
+        width: 180px;
+        margin-left: 5%;
+        line-height: 1.1em;
+        
+    }
+    
+    div.qrenviar > strong > p {
+        
+
+        margin-top: 50px;
+        font-size: 1em;
+        width: 180px;
+        line-height: 1.1em;
+        
+    }
+    div.qrenviar > p {
+        
+        
+        position: relative;
+        top: -10px;
+        font-size: 0.6em;
+        width: 180px;
+        line-height: 1.1em;
+        margin-bottom: 5px;
+        
+    }
+    
+    .envieaqui {
+        background-color: #265299;
+        color: #ffffff;
+        display: inline-block;
+        width: 150px;
+        
+        text-align: center;
+        
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 1em;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 10px;
+        
+    }
     img#ondaazul{
         position: relative;
-        bottom: -70px;
+        bottom: -80px;
         margin-left: -2px;
         width: 100.5%;
        
     }
-    .circulo{
+    div.envieaqui > a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+
+    /*.circulo{
         background-color: #265299;
         width: 300px;
         height: 300px;
-        border-radius: 50%;
+        border-radius: 50% 0% 0% 50%;
         display: flex;
         align-items: center;
 
@@ -74,6 +170,11 @@
         top: -640px;
         left: 200px;
         
-    }
+        
+         */
+   
+
+    
+    
     
 
