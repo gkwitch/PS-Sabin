@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PS Sabin</title>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <!--Media Queries-->
     <link rel="stylesheet" href="styles/style.css" media="all">
     <link rel="stylesheet" href="styles/style.pc.css">
@@ -25,13 +25,14 @@
 <body>
     <header>
         <div id="logo">
-            <img src="imagens/pssabin.logo.png" alt="logo">
-        </div>
+            <a href="index.html">
+                <img src="imagens/pssabin.logo.png" alt="logo"></a>
+            </div>
         <div class="containernav">
                 <nav>
-                    <a class="equipe" href="escreva.aqui.html">EQUIPE</a>
-                    <a class="escrevaaqui" href="login.html">ESCREVA AQUI</a>
-                    <a class="perfil" href="perfil.html">LOGIN</a>
+                    <a class="equipe" href="equipe.html">EQUIPE</a>
+                    <a class="escrevaaqui" href="escreva.aqui.html">ESCREVA AQUI</a>
+                    <a class="login" href="login.html">LOGIN</a>
                 
                 </nav>
         </div>
@@ -54,20 +55,32 @@
                     <img class="circuloimg" src="imagens/circulo.png" alt="circulo">
                 </div>
             </div>
-            <div class="ondaazul">
+            <div class="containerondaazul">
+                <div class="ondaazul">
+                    <div class="ondaazul">
+                        <img src="imagens/onda azul.png" alt="onda azul">
+                    </div>
+                </div>
             </div>
+        </div>
             <!--<img id="ondaazul" src="imagens/onda azul.png" alt="onda azul">-->
         </div>
+        
+        <article id="containerrecentes">
+                <div class="containerpoemasrecentes">
+                    <div class="textrecentes">
+                        <p>PUBLICAÇÕES</p>
+                        <p>RECENTES</p>
+                    </div>
+                    <div id="poemasrecentes"></div>
+
+                <!--Area de poemas recentes para a landing page-->
+            </div>
+            
+        </article>
         <article>
             <div class="conteiner">
             </div>
-        </article>
-
-        <article>
-            <div class="conteiner.poemas" id="poemasrecentes">
-                <!--Area de poemas recentes para a landing page-->
-            </div>
-
         </article>
         
     </main>
