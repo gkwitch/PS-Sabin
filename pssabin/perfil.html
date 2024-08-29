@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PS Sabin</title>
-    
-        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-        <!--Media Queries-->
-        <link rel="stylesheet" href="styles/style.css" media="all">
-        <link rel="stylesheet" href="styles/style.pc.css">
-    
-    
-        <!--Bootsstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        
-        <!--Scripts-->
-        <link rel="javascipt" href="script/script.js">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-       <!--Font-->
-        
-    </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PS Sabin</title>
+
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+    <!--Media Queries-->
+    <link rel="stylesheet" href="styles/style.css" media="all" />
+    <link rel="stylesheet" href="styles/style.pc.css" />
+
+    <!--Bootsstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!--Scripts-->
+    <link rel="javascipt" href="script/script.js" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font-->
+  </head>
+  <body>
     <header>
-        <div id="logo">
-            <a href="index.html">
-                <img src="imagens/pssabin.logo.png" alt="logo"></a>
-            </div>
-        <div class="containernav">
-                <nav>
-                    <a class="equipe" href="equipe.html">EQUIPE</a>
-                    <a class="escrevaaqui" href="escreva.aqui.html">ESCREVA AQUI</a>
-                    <a class="login" href="perfil.html">PERFIL</a>
-                
-                </nav>
-        </div>
-        </div>
-    
-</body>
+      <div id="logo">
+        <a href="index.html">
+          <img src="imagens/pssabin.logo.png" alt="logo"
+        /></a>
+      </div>
+      <div class="containernav">
+        <nav>
+          <a class="equipe" href="equipe.html">EQUIPE</a>
+          <a class="escrevaaqui" href="escreva.aqui.html">ESCREVA AQUI</a>
+          <a class="perfil" href="perfil.html">PERFIL</a>
+        </nav>
+      </div>
+    </header>
+    <center>
+      <table>
+        <tr>
+          <td>
+            <button id="bttOut">Sair</button>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+  <script>
+    document.getElementById("bttOut").onclick = () => {
+      localStorage.setItem("log", "off");
+      location.replace("login.html");
+    };
+  </script>
+  <script src="script/script.js"></script>
 </html>
