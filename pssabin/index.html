@@ -82,17 +82,19 @@
       </article>
       
     </main>
+    <script src="script/script.js"></script>
+    <script>
+      bttEnv.onclick = () => {
+        if (estado === "on") {
+          return true;
+        } else if (estado === "off") {
+          alert(
+            "Você precisa estar conectado a uma conta para enviar um poema."
+          );
+          location.assign("login.html");
+          return false;
+        }
+      };
+    </script>
   </body>
-  <script src="script/script.js"></script>
-  <script>
-    bttEnv.onclick = () => {
-      if (estado === "on") {
-        return true;
-      } else if (estado === "off") {
-        alert("Você precisa estar conectado a uma conta para enviar um poema.");
-        location.assign("login.html");
-        return false;
-      }
-    };
-  </script>
 </html>
