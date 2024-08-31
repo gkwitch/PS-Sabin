@@ -51,12 +51,12 @@
         </tr>
       </table>
     </center>
+    <script src="script/script.js"></script>
+    <script>
+      document.getElementById("bttOut").onclick = () => {
+        localStorage.setItem("log", "off");
+        location.replace("login.html");
+      };
+    </script>
   </body>
-  <script>
-    document.getElementById("bttOut").onclick = () => {
-      localStorage.setItem("log", "off");
-      location.replace("login.html");
-    };
-  </script>
-  <script src="script/script.js"></script>
 </html>
