@@ -389,6 +389,111 @@
         width: 100%;
     }
 
+    /*Button quero enviar*/
+
+    .containerbuttonqueroenviar{
+        display: flex;
+
+        justify-content: center;
+
+        height: 250px;
+    }
+
+    .buttonqueroenviar{
+
+        color: #265299;
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        background-color: #ffffff;
+
+        width: 75%;
+        height: 50%;
+
+        border-radius: 35px;
+
+        margin: auto;
+
+        text-decoration: none;
+    }
+
+    div.buttonqueroenviar > p {
+
+        font-size: 1.5em;
+
+        font-weight: 700;
+
+        margin: 0px;
+        text-align: center;
+    }
+
+    img.imgsobreops{
+
+        width: 100%;
+    }
+
+    /*Como Surigu*/
+
+    section.comosurgiu{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comosurgiutext{
+        color: #ffffff;
+
+        margin-bottom: 0px;
+        margin-top: 8%;
+        margin-left: 5%;
+
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 1em;
+
+        text-align: center;
+    }
+
+    .projetotext{
+        margin-top: 22%;
+        margin-bottom: 0px;
+
+        width: 320px;
+
+        font-weight: 700;
+        text-align: center;
+        text-justify: auto;
+
+        
+    }
+
+    footer{
+
+        background-color: #265299;
+        color: #ffffff;
+
+        font-size: 0.9em;
+
+        margin-top: 10%;
+        padding: 15px;
+
+        text-align: center;
+
+    }
+    footer > p  {
+        margin-bottom: 0px;
+    } 
+
+    footer > p > a {
+
+        color: #ffffff;
+        text-decoration: none;
+    } 
+
     /*Escreva Aqui*/
 
     .containerlogin{
@@ -398,6 +503,7 @@
 
         margin-top: 50px;
     }
+
 
     /*.circulo{
         background-color: #265299;

@@ -360,6 +360,8 @@
 
     .buttonqueroenviar{
 
+        color: #265299;
+
         display: flex;
 
         justify-content: center;
@@ -373,6 +375,8 @@
         border-radius: 35px;
 
         margin: auto;
+
+        text-decoration: none;
     }
 
     div.buttonqueroenviar > p {
