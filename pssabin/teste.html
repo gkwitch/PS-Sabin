@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        textPath{
+        }
+        
+    </style>
+</head>
+<body>
+
+  <svg width="300" height="140">
+    <!-- Defina o caminho de um retângulo arredondado -->
+    <defs>
+      <path id="roundedRectPath" d="M 35,0 H 265 A 35,35 0 0 1 300,35 V 105 A 35,35 0 0 1 265,140 H 35 A 35,35 0 0 1 0,105 V 35 A 35,35 0 0 1 35,0 Z" />
+    </defs>
+  
+    <!-- Desenha o retângulo arredondado com fundo branco -->
+    <rect x="0" y="0" width="300" height="140" rx="35" ry="35" fill="white" stroke="white" stroke-width="2" />
+  
+    <!-- Faz o texto seguir o contorno do retângulo arredondado -->
+    <text font-size="12px" fill="black">
+      <textPath href="#roundedRectPath" startOffset="0">
+        QUERO ENVIAR MEU POEMA QUERO ENVIAR MEU POEMA QUERO ENVIAR MEU POEMA QUERO ENVIAR MEU POEMA QUERO ENVIAR MEU POEMA QUERO ENVIAR MEU POEMA QUERO ENVIAR MEU POEMA
+      </textPath>
+    </text>
+    
+    <!-- Texto dentro do botão -->
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="16px" fill="black">
+      QUERO ENVIAR
+      MEU POEMA
+    </text>
+  </svg>
+  
+  
+      
+</body>
+</html>

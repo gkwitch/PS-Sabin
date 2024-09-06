@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@media screen and (min-width: 380px) {
 /*index*/
 
     * {
@@ -13,6 +13,7 @@
         background-image: url(../imagens/1x/imgPrancheta\ 7.png);
         background-size: contain;
         background-repeat: no-repeat;
+        background-color: #ff0000;
     }
 
     div.container {
@@ -148,7 +149,7 @@
     
     article.poemasrecentes{
         width: 100%;
-        height: 368px;
+        height: 487px;
         z-index: 1;
     }
 
@@ -158,7 +159,7 @@
         z-index: 1;
         
         padding-left: 5%;
-        padding-top: 20%;
+        padding-top: 35%;
     }
 
     div.textrecentes > span > p { 
@@ -179,7 +180,7 @@
         justify-content: center;
 
         width: 100%;
-        height: 19vh;
+        height: 17vh;
 
 
         z-index: 1;
@@ -190,7 +191,7 @@
 
         background-color: #ffffff;
         width: 190px;
-        height: 200px;
+        height: 240px;
         border-radius: 10%;
 
         z-index: 1;
@@ -203,7 +204,7 @@
         flex-flow: row nowrap;
 
         width: 100%;
-        height: 327px;
+        height: 365px;
         z-index: 1;
     }
 
@@ -227,7 +228,7 @@
 
     div.textamor > img {
         width: 90%;
-        height: 70%;
+        height: 90%;
     }
 
     div#poemasamorcontainer{
@@ -243,7 +244,7 @@
     div#poemasamor{
         background-color: #ffffff;
         width: 190px;
-        height: 210px;
+        height: 240px;
         border-radius: 10%;
     }
 
@@ -254,7 +255,7 @@
         flex-flow: row nowrap;
 
         width: 100%;
-        height: 362px;
+        height: 410px;
         z-index: 1;
     }
 
@@ -278,7 +279,7 @@
 
     div.textansiedade > img {
         width: 85%;
-        height: 75%;
+        height: 85%;
     }
 
     div#poemasansiedadecontainer{
@@ -294,7 +295,7 @@
     div#poemasansiedade{
         background-color: #ffffff;
         width: 190px;
-        height: 210px;
+        height: 240px;
         border-radius: 10%;
     }
     /* Poemas Tristeza*/
@@ -304,7 +305,7 @@
         flex-flow: row nowrap;
 
         width: 100%;
-        height: 362px;
+        height: 380px;
         z-index: 1;
     }
 
@@ -328,7 +329,7 @@
 
     div.texttristeza > img {
         width: 80%;
-        height: 70%;
+        height: 80%;
     }
 
     div#poemastristezacontainer{
@@ -344,7 +345,7 @@
     div#poemastristeza{
         background-color: #ffffff;
         width: 190px;
-        height: 210px;
+        height: 240px;
         border-radius: 10%;
     }
     /*Button quero enviar*/
@@ -354,7 +355,7 @@
 
         justify-content: center;
 
-        height: 305px;
+        height: 320px;
     }
 
     .buttonqueroenviar{
@@ -389,6 +390,65 @@
         width: 100%;
     }
 
+    /*Como Surigu*/
+
+    section.comosurgiu{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comosurgiutext{
+        color: #ffffff;
+
+        margin-bottom: 0px;
+        margin-top: 8%;
+        margin-left: 5%;
+
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 1em;
+
+        text-align: center;
+    }
+
+    .projetotext{
+        margin-top: 22%;
+        margin-bottom: 0px;
+
+        width: 320px;
+
+        font-weight: 700;
+        text-align: center;
+        text-justify: auto;
+
+        
+    }
+
+    footer{
+
+        background-color: #265299;
+        color: #ffffff;
+
+        font-size: 0.9em;
+
+        margin-top: 10%;
+        padding: 15px;
+
+        text-align: center;
+
+    }
+    footer > p  {
+        margin-bottom: 0px;
+    } 
+
+    footer > p > a {
+
+        color: #ffffff;
+        text-decoration: none;
+    } 
+
     /*Escreva Aqui*/
 
     .containerlogin{
@@ -413,9 +473,4 @@
         
         
          */
-   
-
-
-    
-    
-
+}
