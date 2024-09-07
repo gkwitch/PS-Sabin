@@ -7,7 +7,7 @@
 
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
     <!--Media Queries-->
-    <link rel="stylesheet" href="styles/style_login.css" media="all" />
+    <link rel="stylesheet" href="styles/style_login.css" media="screen" />
     <link rel="stylesheet" href="styles/style_login_s20.css" media="screen" />
     <link rel="stylesheet" href="styles/style_login_pc.css"/>
 
@@ -33,9 +33,9 @@
       <div class="containernav">
         <nav>
           <ul>
-            <li><a class="equipe" href="equipe.html">EQUIPE</a></li>
-            <li><a class="escrevaaqui" href="escreva.aqui.html">ESCREVA AQUI</a></li>
-            <li><a class="login" href="login.html">LOGIN</a></li>
+            <li><a class="navequipe" href="equipe.html">EQUIPE</a></li>
+            <li><a class="navescreva" href="escreva.aqui.html">ESCREVA AQUI</a></li>
+            <li><a class="navlogin" href="login.html">LOGIN</a></li>
           </ul>
         </nav>
       </div>
@@ -46,24 +46,24 @@
             <div class="cadastro">
               <form>
                 <label for="chk" aria-hidden="true">Cadastre-se</label>
-                <input type="text" name="txt" placeholder="Nome" required>
+                <input type="text" name="txt" placeholder="Nome" required maxlength="30">
                 <input type="email" name="email" placeholder="Email" required>
-                <input type="password" name="pswd" placeholder="Senha" required>
-                <label for="chk">
+                <input type="password" name="pswd" placeholder="Senha" required minlenght="8" maxlength="15">
+                <label for="turma" class="turma">TURMA:
                   <select id="turma">
-                    <option value="2007">2007</option>
                     <option value="2005">2005</option>
+                    <option value="2007">2007</option>
                   </select>
                 </label>
-                <button>Cadastrar</button>
+                <button>CADASTRAR</button>
               </form>
             </div>
-            <div class="login">
+            <div class="logincontent">
               <form>
-                <label for="chk" aria-hidden="true">Login</label>
+                <label class="logintext" for="chk" aria-hidden="true">Login</label>
                 <input type="text" name="email" placeholder="Email" required>
                 <input type="password" name="pswd" placeholder="Senha" required>
-                <button id="bttIn">Entrar</button>
+                <button class="botaoentrar" id="bttIn">Entrar</button>
               </form>
             </div>
         </div>

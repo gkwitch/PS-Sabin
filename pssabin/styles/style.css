@@ -69,7 +69,7 @@
     nav {
     }
 
-    .escrevaaqui , .login , .equipe, .perfil {
+    nav > a {
         background-color: #ffffff;
         color: black;
         font-weight: normal;
