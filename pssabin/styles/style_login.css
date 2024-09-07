@@ -150,7 +150,7 @@ button:hover{
 #chk:checked ~ .logincontent{
     transform: translateY(-500px);
 }
-#chk:checked ~ ..logincontent label{
+#chk:checked ~ .logincontent label{
     transform: scale(1);
 }
 #chk:checked ~ .cadastro label{
