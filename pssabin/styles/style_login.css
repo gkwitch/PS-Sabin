@@ -221,4 +221,21 @@ nav > ul > li > a  {
     border-left: #265299 2.5px solid;
     border-radius: 0px 0px 12px 12px;
 }
+nav > a {
+    background-color: #ffffff;
+    color: black;
+    font-weight: normal;
+    
+    font-size: 0.6em;
+    line-height: 2em;
+    text-decoration: none;
+    padding: 7px;
+
+    border-top: #ffffff 1px solid;
+    border-right: #265299 2.5px solid;
+    border-bottom: #265299 2.5px solid;
+    border-left: #265299 2.5px solid;
+    border-radius: 0px 0px 12px 12px;
+}
+
 
