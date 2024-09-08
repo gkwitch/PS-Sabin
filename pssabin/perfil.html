@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="styles/style.pc.css" />
 
     <!--Bootsstrap-->
-    
 
     <!--Scripts-->
     <link rel="javascript" href="script/script.js" />
@@ -32,23 +31,24 @@
       <div class="containernav">
         <nav>
           <ul>
-            <li><a class="equipe" href="equipe.html">EQUIPE</a></li>
-            <li><a class="escrevaaqui" href="escreva.aqui.html">ESCREVA AQUI</a></li>
-            <li><a class="loginnav" href="login.html">LOGIN</a></li>
-            
+            <li><a class="navequipe" href="equipe.html">EQUIPE</a></li>
+            <li>
+              <a id="escAqAnc" class="navescreva" href="escreva.aqui.html"
+                >ESCREVA AQUI</a
+              >
+            </li>
+            <li><a class="navlogin" href="login.html">LOGIN</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <center>
-      <table>
-        <tr>
-          <td>
-            <button id="bttOut">Sair</button>
-          </td>
-        </tr>
-      </table>
-    </center>
+    <table style="width: fit-content; margin: 0 auto">
+      <tr>
+        <td>
+          <button id="bttOut">Sair</button>
+        </td>
+      </tr>
+    </table>
     <script src="script/script.js"></script>
     <script>
       document.getElementById("bttOut").onclick = () => {

@@ -125,7 +125,7 @@ div#logo > a{
 
 div.containernav {
     display: flex;
-    wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
 header > div.containernav > nav > ul > li {

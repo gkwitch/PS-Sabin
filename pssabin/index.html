@@ -7,8 +7,8 @@
 
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
     <!--Media Queries-->
-    <link rel="stylesheet" href="styles/style.css" media="screen"/>
-    <link rel="stylesheet" href="styles/style_s20.css" media="screen"/>
+    <link rel="stylesheet" href="styles/style.css" media="screen" />
+    <link rel="stylesheet" href="styles/style_s20.css" media="screen" />
 
     <link rel="stylesheet" href="styles/style.pc.css" />
 
@@ -21,7 +21,6 @@
     />
 
     <!--Scripts-->
-    <link rel="javascript" href="script/script.js" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -40,90 +39,116 @@
         <nav>
           <ul>
             <li><a class="navequipe" href="equipe.html">EQUIPE</a></li>
-            <li><a class="navescrevaaqui" href="escreva.aqui.html">ESCREVA AQUI</a></li>
+            <li>
+              <a id="escAqAnc" class="navescreva" href="escreva.aqui.html"
+                >ESCREVA AQUI</a
+              >
+            </li>
             <li><a class="navlogin" href="login.html">LOGIN</a></li>
-            
           </ul>
         </nav>
       </div>
     </header>
 
     <main>
-          <div class="containerpart1">
-            <div class="qrenviar">
-              <strong><p>QUERO ENVIAR MEU POEMA!</p></strong>
-              <p>
-                COMPARTILHE O QUE ESTÁ SE PASSANDO EM SUA CABEÇA, ENVIE SEU POEMA
-                NA PS!
-              </p>
-              <div class="envieaqui">
-                <a class="" href="escreva.aqui.html">ENVIE AQUI</a>
-              </div>
-            </div>
+      <div class="containerpart1">
+        <div class="qrenviar">
+          <strong><p>QUERO ENVIAR MEU POEMA!</p></strong>
+          <p>
+            COMPARTILHE O QUE ESTÁ SE PASSANDO EM SUA CABEÇA, ENVIE SEU POEMA NA
+            PS!
+          </p>
+          <div class="envieaqui">
+            <a class="" href="escreva.aqui.html">ENVIE AQUI</a>
           </div>
-          <article class="poemasrecentes">
-            <div class="containerpoemasrecentes">
-              <div class="textrecentes">
-                <span><p>PUBLICAÇÕES</p></span>
-                <p><img src="imagens/Ativo 1.png" alt="recentes"></p>
-                <div id="poemasrecentescontainer">
-                  <!--Area de poemas recentes para a landing page-->
-                  <div id="poemasrecentesarea"></div>
-                </div>
-              </div>
-          </article>
         </div>
-        <article class="poemasamor">
-          <div class="containerpoemasamor">
-            <div class="textamor">
-              <img src="imagens/amorobjeto.png" alt="amor">
-            </div>
-            <div id="poemasamorcontainer">
+      </div>
+      <article class="poemasrecentes">
+        <div class="containerpoemasrecentes">
+          <div class="textrecentes">
+            <span><p>PUBLICAÇÕES</p></span>
+            <p><img src="imagens/Ativo 1.png" alt="recentes" /></p>
+            <div id="poemasrecentescontainer">
               <!--Area de poemas recentes para a landing page-->
-              <div id="poemasamor"></div>
+              <div id="poemasrecentesarea"></div>
             </div>
           </div>
-        </article>
-
-        <article class="poemasansiedade">
-          <div class="containerpoemasansiedade">
-            <div class="textansiedade">
-              <img src="imagens/ansiedadeobjeto.png" alt="ansiedade">
-            </div>
-            <div id="poemasansiedadecontainer">
-              <!--Area de poemas recentes para a landing page-->
-              <div id="poemasansiedade"></div>
-            </div>
-          </div>
-        </article>
-
-        <article class="poemastristeza">
-          <div class="containerpoemastristeza">
-            <div class="texttristeza">
-              <img src="imagens/1x/tristezaobjeto.png" alt="tristeza">
-            </div>
-            <div id="poemastristezacontainer">
-              <!--Area de poemas recentes para a landing page-->
-              <div id="poemastristeza"></div>
-            </div>
-          </div>
-        </article>
-        <div class="containerbuttonqueroenviar">
-          <a class="buttonqueroenviar" href="escreva.aqui.html">
-            <div class="buttonqueroenviar">
-              <p>QUERO ENVIAR<br>MEU POEMA!</p>
-            </div>
-          </a>
         </div>
-        <img class="imgsobreops" src="imagens/1x/imgPrancheta 1.png" alt="sobre o pssabin">
-        <section class="comosurgiu">
-          <p class="comosurgiutext">COMO <br> SURGIU?</p>
-          <p class="projetotext">O EXPLORANDO O SABER É UM PROJETO DE EXTENSÃO OFERECIDO PELA UERJ PARA LEVAR O DESENVOLVIMENTO E PROGRAMAÇÃO A ALUNOS DA ZONA OESTE. <br><br> PARA A CONCLUSÃO DA PRIMEIRA PARTE DESSE CURSO, PRECISAMOS CRIAR UM PROJETO E, ASSIM, SURGIU O PS SABIN!</p>
-        </section>
-      
+      </article>
+      <article class="poemasamor">
+        <div class="containerpoemasamor">
+          <div class="textamor">
+            <img src="imagens/amorobjeto.png" alt="amor" />
+          </div>
+          <div id="poemasamorcontainer">
+            <!--Area de poemas recentes para a landing page-->
+            <div id="poemasamor"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="poemasansiedade">
+        <div class="containerpoemasansiedade">
+          <div class="textansiedade">
+            <img src="imagens/ansiedadeobjeto.png" alt="ansiedade" />
+          </div>
+          <div id="poemasansiedadecontainer">
+            <!--Area de poemas recentes para a landing page-->
+            <div id="poemasansiedade"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="poemastristeza">
+        <div class="containerpoemastristeza">
+          <div class="texttristeza">
+            <img src="imagens/1x/tristezaobjeto.png" alt="tristeza" />
+          </div>
+          <div id="poemastristezacontainer">
+            <!--Area de poemas recentes para a landing page-->
+            <div id="poemastristeza"></div>
+          </div>
+        </div>
+      </article>
+      <div class="containerbuttonqueroenviar">
+        <a class="buttonqueroenviar" href="escreva.aqui.html">
+          <div class="buttonqueroenviar">
+            <p>QUERO ENVIAR<br />MEU POEMA!</p>
+          </div>
+        </a>
+      </div>
+      <img
+        class="imgsobreops"
+        src="imagens/1x/imgPrancheta 1.png"
+        alt="sobre o pssabin"
+      />
+      <section class="comosurgiu">
+        <p class="comosurgiutext">
+          COMO <br />
+          SURGIU?
+        </p>
+        <p class="projetotext">
+          O EXPLORANDO O SABER É UM PROJETO DE EXTENSÃO OFERECIDO PELA UERJ PARA
+          LEVAR O DESENVOLVIMENTO E PROGRAMAÇÃO A ALUNOS DA ZONA OESTE.
+          <br /><br />
+          PARA A CONCLUSÃO DA PRIMEIRA PARTE DESSE CURSO, PRECISAMOS CRIAR UM
+          PROJETO E, ASSIM, SURGIU O PS SABIN!
+        </p>
+      </section>
     </main>
     <footer>
-        <p>PROJETO DESENVOLVIDO POR:<br><a href="https://www.instagram.com/gleicykethelin" target="_blank">GLEICY KETHELIN</a> E <a href="https://www.instagram.com/immath_v7">MATHEUS MARTINS </a> C 2024</p>
+      <p>
+        PROJETO DESENVOLVIDO POR:<br /><a
+          href="https://www.instagram.com/gleicykethelin"
+          target="_blank"
+          >GLEICY KETHELIN</a
+        >
+        E
+        <a href="https://www.instagram.com/immath_v7" target="_blank"
+          >MATHEUS MARTINS
+        </a>
+        C 2024
+      </p>
     </footer>
     <script src="script/script.js"></script>
     <script>
@@ -131,9 +156,15 @@
         if (estado === "on") {
           return true;
         } else if (estado === "off") {
-          alert(
-            "Você precisa estar conectado a uma conta para enviar um poema."
-          );
+          location.assign("login.html");
+          return false;
+        }
+      };
+
+      bttEnv2.onclick = () => {
+        if (estado === "on") {
+          return true;
+        } else if (estado === "off") {
           location.assign("login.html");
           return false;
         }
