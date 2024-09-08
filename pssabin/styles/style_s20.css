@@ -67,10 +67,8 @@
     div#logo > a > img {
         width: 100px;
     }
-    nav {
-    }
 
-    nav > a {
+    nav > ul > li > a {
         background-color: #ffffff;
         color: black;
         font-weight: normal;
