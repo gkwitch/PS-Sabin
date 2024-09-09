@@ -2,100 +2,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: none;
+    padding: none;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
-
-section{
-    height: 92.3vh;
+body{
+    margin: 0px;
+}
+main{
+    width: 100%;
+   margin: 0px;
+    background-color: #ffffff;
+    justify-content: center;
+    
+}
+.perfilphotocontainer{
+    margin: 15px auto 30px auto;
+    
+}
+.perfilphoto{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+    margin-top: 30px;
+    margin: auto;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #265299;
-}
-
-.containerescrevaaqui{
-    width: 90%;
-    height: 600px;
-    border-radius: 25px;
-    background-color: #ffffff;
-    display: flex;
-    flex-flow: column;
-    justify-content: start;
-    align-items: center;
-}
-h2 {
-    width: 80%;
-    border-bottom: 5px black;
-    margin: 20px auto 0px auto;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(194, 194, 194);
-    outline: none;
-}
-p {
-    width: 80%;
-    height: 320px;
-    margin: 0px auto;
-    padding: 10px;
-    padding-bottom: 4px;
-    border-bottom: 1px solid rgb(194, 194, 194);
-    outline: none;
-}
-.nomedoautorcontainer{
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px auto;
-}
-
-.nomedoautor{
-    display: inline;
-    font-size: 1.1em;
-    outline: none;
-    border: none;
-    padding-bottom: 5px;
-    border-bottom: 1px solid rgb(194, 194, 194);
-}
-
-.autordesconhecido{
-    display: inline;
-    margin-right: 10%;
     
 }
-.categoriacontainer{
-    display: flex;
-    justify-content: space-between;
+.perfilphoto i#userico{
+    position: relative;
+    font-size: 80px;
+    color: rgb(161, 161, 161);
+}
+.photopencontainer{
+    text-align: center;
+}
+.photopencontainer i#penuser{
+    position: absolute;
+    padding-left: 10%;
+    
+}
+.accountinfocontainer{
+   width: 70%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.inputarea{
     width: 100%;
-    font-size: 1.1em;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
     
 }
-#categoria{
-    padding: 2px;
+.inputarea input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
     outline: none;
-    margin-right: 10%;
-}
-
-#pub{
-    color: #ffffff;
-    background-color: #265299;
-
-    font-size: 1em;
-
-    width: 40%;
-    height: 35px ;
-
-    margin: 20px auto ;
-    padding: 5px;
-
     border: none;
-    outline: none;
-    border-radius: 8px;
-
+    border-radius: 15px;
+    background-color: #e6e6e6;
 }
+.inputarea i#pennome{
+    position: absolute;
+    right: 5px;
+    font-size: 15px;
+}
+.inputarea i#penemail{
+    position: absolute;
+    right: 5px;
+    font-size: 15px;
+}
+.inputarea i#penpswd{
+    position: absolute;
+    right: 5px;
+    font-size: 15px;
+}
+.favoritoscontainer{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+}
+.favoritoscontainer > h3 {
+    color: #265299;
+    border-bottom: 2px solid #b9b9b9;
+    padding-bottom: 5px;
+}
+.buttoncontainer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+#bttOut{
+    width: 50%;
+    height: 35px;
+    color: #ffffff;
+    border: none;
+    background-color: #265299;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+
 
 
 
@@ -127,8 +148,9 @@ div#logo > a{
 
 div.containernav {
     display: flex;
-    flex-wrap: nowrap;
+    wrap: nowrap;
 }
+
 
 header > div.containernav > nav > ul > li {
     list-style: none;
@@ -138,15 +160,15 @@ header > div.containernav > nav > ul > li {
 }
 
 header > div.containernav > nav > ul {
-    padding-left: 0px;
     margin: 0px;
+    padding-left: 0px;
 }
 
 div#logo > a > img {
     width: 100px;
 }
 
-nav > ul > li > a {
+nav > ul > li > a  {
     background-color: #ffffff;
     color: black;
     font-weight: normal;
@@ -178,5 +200,3 @@ nav > a {
     border-left: #265299 2.5px solid;
     border-radius: 0px 0px 12px 12px;
 }
-
-

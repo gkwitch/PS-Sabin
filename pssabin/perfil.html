@@ -7,8 +7,10 @@
 
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
     <!--Media Queries-->
-    <link rel="stylesheet" href="styles/style.css" media="all" />
+    <link rel="stylesheet" href="styles/style_perfil.css" media="all" />
     <link rel="stylesheet" href="styles/style.pc.css" />
+    <!--Fonte Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!--Bootsstrap-->
 
@@ -42,13 +44,39 @@
         </nav>
       </div>
     </header>
-    <table style="width: fit-content; margin: 0 auto">
-      <tr>
-        <td>
+    <main>
+        <div class="perfilphotocontainer">
+          <div class="perfilphoto">
+          <i class="fa-solid fa-user" id="userico"></i>
+        </div>
+        <div class="photopencontainer">
+          <i class="fa-solid fa-pen" id="penuser"></i>
+        </div>
+        </div>
+        <div class="accountinfocontainer">
+          <div class="inputarea">
+            <input type="text" name="nomeusu" id="#">
+            <i class="fa-solid fa-pen" id="pennome"></i>
+          </div>
+          <div class="inputarea">
+            <input type="email" name="emailusu" id="#">
+            <i class="fa-solid fa-pen" id="penemail"></i>
+          </div>
+          <div class="inputarea">
+            <input type="password" name="pswdusu" id="#">
+            <i class="fa-solid fa-pen" id="penpswd"></i>
+          </div>
+        </div>
+        <div class="favoritoscontainer">
+          <h3>Poemas Favoritos</h3>
+          <div>
+
+          </div>
+        </div>
+        <div class="buttoncontainer">
           <button id="bttOut">Sair</button>
-        </td>
-      </tr>
-    </table>
+        </div>
+    </main>
     <script src="script/script.js"></script>
     <script>
       document.getElementById("bttOut").onclick = () => {
