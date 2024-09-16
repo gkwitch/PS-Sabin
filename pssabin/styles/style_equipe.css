@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+.containergk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.gkpartimg{ 
+    margin-top: 12%;
+}
+img{
+    width: 150px;
+    border-radius: 15%;
+}
+.gkparttext{
+    width: 80%;
+}
+.gkparttext > h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.gkparttext > p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+.containermt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.mtpartimg{ 
+    margin-top: 12%;
+}
+img{
+    width: 150px;
+    border-radius: 15%;
+}
+.mtparttext{
+    width: 80%;
+}
+.mtparttext > h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.mtparttext > p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+
+/*Header*/ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+
+    padding: 10px 20px 0px 20px;
+
+    height: 60px;
+}
+
+
+div.containerheader {
+    flex: row nowrap;
+
+    justify-content: space-evenly;
+    align-items: space-between;
+
+}
+
+div#logo > a{ 
+    display: flex;
+    text-decoration: none;
+}
+
+div.containernav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header > div.containernav > nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    
+    margin: 0px;
+}
+
+header > div.containernav > nav > ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+div#logo > a > img {
+    width: 100px;
+}
+
+nav > ul > li > a {
+    background-color: #ffffff;
+    color: black;
+    font-weight: normal;
+    
+    font-size: 0.6em;
+    line-height: 2em;
+    text-decoration: none;
+    padding: 7px;
+
+    border-top: #ffffff 1px solid;
+    border-right: #265299 2.5px solid;
+    border-bottom: #265299 2.5px solid;
+    border-left: #265299 2.5px solid;
+    border-radius: 0px 0px 12px 12px;
+}
+nav > a {
+    background-color: #ffffff;
+    color: black;
+    font-weight: normal;
+    
+    font-size: 0.6em;
+    line-height: 2em;
+    text-decoration: none;
+    padding: 7px;
+
+    border-top: #ffffff 1px solid;
+    border-right: #265299 2.5px solid;
+    border-bottom: #265299 2.5px solid;
+    border-left: #265299 2.5px solid;
+    border-radius: 0px 0px 12px 12px;
+}

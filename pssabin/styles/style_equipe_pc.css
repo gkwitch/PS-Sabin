@@ -2,22 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @media screen and (min-width: 992px){
-    
-    *, ::after, ::before {
-        box-sizing: 0;
+    * {
         margin: 0;
         padding: 0;
         font-family: "Montserrat", Arial, Helvetica, sans-serif;
     }
-
-    
     html {
         width: 99vw;
         height: 100vh;
     }
     body{
         background-color: #265299;
-
+        width: 97.8vw;
+        height: 100vh;
     }
     /*Header*/    
     header{
@@ -101,5 +98,68 @@
     nav > a:hover{
         text-decoration: underline;
     }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 80%;
+        height: 85vh;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    .containergk{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .gkpartimg{ 
+        margin: 70px 60px 0px 0px;
+    }
+    .gkpartimg > img{
+        width: 200px;
+        border-radius: 5%;
+    }
+    .gkparttext{
+        width: 30%;
+    }
+    .gkparttext > h2{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .gkparttext > p {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1em;
+    }
+    .containermt{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        
+    }
+    .mtpartimg{ 
+        margin: 70px 60px 0px 0px;
+    }
+    .mtpartimg > img{
+        width: 200px;
+        border-radius: 5%;
+    }
+    .mtparttext{
+        width: 30%;
+    }
+    .mtparttext > h2{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .mtparttext > p {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1em;
+    }
 }
-
