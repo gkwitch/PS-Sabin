@@ -1,25 +1,31 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media screen and (max-width:621px){
+@media screen and (min-width:622px){
 
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
+
 body{
-    margin: 0px;
+    width: 100vw;
+    height: 100vh ;
+    background-color: #265299;
 }
 main{
-    width: 100%;
+    width: 80%;
+    height: 85%;
     margin: 0px;
     background-color: #ffffff;
     justify-content: center;
+    margin: auto;
     
 }
 .perfilphotocontainer{
     margin: 15px auto 30px auto;
+    padding-top: 35px;
     
 }
 .perfilphoto{
@@ -45,11 +51,14 @@ main{
 }
 .photopencontainer i#penuser{
     position: absolute;
-    padding-left: 10%;
-    
+    padding-left: 3%;
+}
+.photopencontainer i#penuser:hover{
+    cursor: pointer;
+    color: rgb(66, 63, 63);
 }
 .accountinfocontainer{
-   width: 70%;
+   width: 40%;
    margin: auto;
    display: flex;
    flex-direction: column;
@@ -79,20 +88,33 @@ main{
     right: 5px;
     font-size: 15px;
 }
+.inputarea i#pennome:hover{
+    cursor: pointer;
+    color: rgb(66, 63, 63);
+}
+
 .inputarea i#penemail{
     position: absolute;
     right: 5px;
     font-size: 15px;
+}
+.inputarea i#penemail:hover{
+    cursor: pointer;
+    color: rgb(66, 63, 63);
 }
 .inputarea i#penpswd{
     position: absolute;
     right: 5px;
     font-size: 15px;
 }
+.inputarea i#penpswd:hover{
+    cursor: pointer;
+    color: rgb(66, 63, 63);
+}
 .favoritoscontainer{
-    width: 70%;
-    height: 180px;
-    margin: auto;
+    width: 40%;
+    height: 200px;
+    margin: 20px auto;
 }
 .favoritoscontainer > h3 {
     color: #265299;
@@ -106,97 +128,103 @@ main{
     justify-content: center;
 }
 #bttOut{
-    width: 40%;
-    height: 35px;
+    width: 15%;
+    height: 38px;
     color: #ffffff;
     border: none;
     background-color: #265299;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 600;
     border-radius: 15px;
-    margin: 10px 5px 10px 0px;
+    margin: 50px 10px 50px 0px;
     padding: 5px;
 }
 #bttDel{
-    width: 40%;
-    height: 35px;
+    width: 15%;
+    height: 38px;
     color: #ffffff;
     border: none;
     background-color: #dd1919;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 600;
     border-radius: 15px;
-    margin: 10px 0px 10px 5px;
+    margin: 50px 0px 50px 5px;
     padding: 5px;
 }
+#bttOut:hover{
+    cursor: pointer;
+    background-color: #3968b3;
+    color: #ffffff;
 
-
-
-
-
-/*Header*/ 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-
-    padding: 10px 20px 0px 20px;
-
-    height: 60px;
+}
+#bttDel:hover{
+    cursor: pointer;
+    background-color: #e04949;
+    color: #ffffff;
 }
 
 
+
+/*Header*/
+header{
+    height: 6.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
 div.containerheader {
-    flex: row nowrap;
-
-    justify-content: space-evenly;
-    align-items: space-between;
-
+    
 }
 
 div#logo > a{ 
-    display: flex;
-    text-decoration: none;
+    
 }
 
 div.containernav {
     display: flex;
-    wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   margin-left: 3%;
 }
-
 
 header > div.containernav > nav > ul > li {
     list-style: none;
     display: inline-block;
     
-    margin: 0px;
+    margin: 20px;
 }
 
 header > div.containernav > nav > ul {
-    margin: 0px;
     padding-left: 0px;
+    margin: 7px;
 }
 
 div#logo > a > img {
-    width: 100px;
+    width: 140px;
+    margin-left: 25%;
 }
 
-nav > ul > li > a  {
+nav > ul > li > a {
     background-color: #ffffff;
     color: black;
     font-weight: normal;
     
-    font-size: 0.6em;
-    line-height: 2em;
+    font-size: 0.9em;
+    line-height: 1em;
     text-decoration: none;
-    padding: 7px;
+    padding: 10px;
 
     border-top: #ffffff 1px solid;
     border-right: #265299 2.5px solid;
     border-bottom: #265299 2.5px solid;
     border-left: #265299 2.5px solid;
     border-radius: 0px 0px 12px 12px;
+}
+nav > ul > li > a:hover{
+    text-decoration: underline;
 }
 nav > a {
     background-color: #ffffff;
@@ -213,5 +241,9 @@ nav > a {
     border-bottom: #265299 2.5px solid;
     border-left: #265299 2.5px solid;
     border-radius: 0px 0px 12px 12px;
+}
+nav > a:hover{
+    text-decoration: underline;
+
 }
 }

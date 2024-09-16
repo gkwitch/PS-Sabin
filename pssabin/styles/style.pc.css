@@ -10,19 +10,19 @@
         font-family: "Montserrat", Arial, Helvetica, sans-serif;
     }
 
-    
-    html {
-        width: 99vw;
-        height: 100vh;
-    }
     body{
+        width: 99.1vw;
+    }
+    main{
+        width: 99.1vw;
         background-color: #265299;
+    }
+    footer{
 
     }
     /*Header*/    
     header{
-        width: 100%;
-        height: 6.5%;
+        height: 101px;
         display: flex;
         justify-content: center;
         align-items: center;
