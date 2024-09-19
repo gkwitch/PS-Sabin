@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media screen and (min-width:622px){
+@media screen and (min-width:966px){
 
 *{
     margin: 0;
@@ -16,11 +16,11 @@ body{
 }
 main{
     width: 80%;
-    height: 85%;
     margin: 0px;
     background-color: #ffffff;
     justify-content: center;
     margin: auto;
+    padding-bottom: 30px;
     
 }
 .perfilphotocontainer{
@@ -126,6 +126,7 @@ main{
     height: 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #bttOut{
     width: 15%;

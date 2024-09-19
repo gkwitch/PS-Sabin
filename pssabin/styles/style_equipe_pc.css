@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 996px){
     * {
         margin: 0;
         padding: 0;
@@ -100,10 +100,10 @@
     }
     .container{
         width: 80%;
-        height: 85vh;
         margin-top: 20px;
         border-radius: 10px;
         background-color: #ffffff;
+        padding-bottom: 60px;
     }
     .containergk{
         display: flex;
